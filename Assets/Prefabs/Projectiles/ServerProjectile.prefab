@@ -50,10 +50,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5572501511509683676, guid: 8eea652fcdc2b84418d9991f92bc07bb, type: 3}
       propertyPath: m_Name
-      value: ProjectileBase Variant
+      value: ServerProjectile
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5572501511509683676, guid: 8eea652fcdc2b84418d9991f92bc07bb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2852318296090552801}
   m_SourcePrefab: {fileID: 100100000, guid: 8eea652fcdc2b84418d9991f92bc07bb, type: 3}
+--- !u!1 &6678225349982629811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5572501511509683676, guid: 8eea652fcdc2b84418d9991f92bc07bb, type: 3}
+  m_PrefabInstance: {fileID: 1294875100543550063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2852318296090552801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6678225349982629811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae2fd1742b7f5645850be06de41232a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DealDamangeOnContact
+  damage: 5
