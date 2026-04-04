@@ -149,8 +149,29 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 500424586055243182, guid: 8eea652fcdc2b84418d9991f92bc07bb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5591172193819340274}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5572501511509683676, guid: 8eea652fcdc2b84418d9991f92bc07bb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4695884447573744631}
   m_SourcePrefab: {fileID: 100100000, guid: 8eea652fcdc2b84418d9991f92bc07bb, type: 3}
+--- !u!1 &1559830726161764240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5572501511509683676, guid: 8eea652fcdc2b84418d9991f92bc07bb, type: 3}
+  m_PrefabInstance: {fileID: 6408658958856233548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4695884447573744631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559830726161764240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7c71a970dc9ee4bad26a2cfe36ec65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnOnDestroy
+  prefab: {fileID: 7897676170892844421, guid: 569a9a72ffc4be248a41bc04f747bd30, type: 3}
 --- !u!4 &6773973336934447074 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 500424586055243182, guid: 8eea652fcdc2b84418d9991f92bc07bb, type: 3}
